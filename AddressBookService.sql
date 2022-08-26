@@ -27,3 +27,8 @@ insert into AddressBook values
 ------UC-4-----
 
 update AddressBook set FirstName='Abcd',LastName='Def',Address='Goregaon',City='Mumbai',State='Maharashtra',Zipcode='876934',PhoneNumber='9879879879',Email='abc@a.com' where FirstName='ABC'
+
+-----UC-5------
+
+delete from AddressBook where FirstName='Nikita'
+select * from AddressBook

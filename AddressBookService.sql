@@ -23,3 +23,7 @@ Email varchar(50) not null
 insert into AddressBook values
 ('Nikita','Salunke','Panvel','Mumbai','Maharashtra','987654','9999999999','a@a.com'),
 ('ABC','DEF','Andheri','Mumbai','Maharashtra','856319','9898989898','ab@a.com')
+
+------UC-4-----
+
+update AddressBook set FirstName='Abcd',LastName='Def',Address='Goregaon',City='Mumbai',State='Maharashtra',Zipcode='876934',PhoneNumber='9879879879',Email='abc@a.com' where FirstName='ABC'

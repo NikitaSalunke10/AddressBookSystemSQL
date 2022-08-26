@@ -40,3 +40,8 @@ insert into AddressBook values
 
 select * from AddressBook where city='Mumbai'
 select * from AddressBook where state='maharashtra'
+
+-------UC-7-----
+
+select count(city) from AddressBook where city='pune'
+select count(state) from AddressBook where state='maharashtra'

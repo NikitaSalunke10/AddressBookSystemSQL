@@ -60,3 +60,8 @@ update AddressBook set type='Family' where FirstName in ('Nikita','Abcd')
 update AddressBook set type='Friend' where FirstName in ('Terissa')
 
 select type, count(type) from AddressBook group by type
+
+------UC-11-----
+
+insert into AddressBook values
+('Nikita','Salunke','Kothrud','Pune','Maharashtra','987654','9999999999','a@a.com','Friend')

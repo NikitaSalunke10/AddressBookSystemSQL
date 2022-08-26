@@ -49,3 +49,7 @@ select count(state) from AddressBook where state='maharashtra'
 ------UC-8-----
 
 select * from AddressBook where City='Mumbai' order by FirstName
+
+-----UC-9 ----
+
+alter table AddressBook add type varchar(15)

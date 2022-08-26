@@ -17,3 +17,9 @@ Zipcode varchar(50) not null,
 PhoneNumber varchar(50) not null,
 Email varchar(50) not null
 )
+
+------UC-3------
+
+insert into AddressBook values
+('Nikita','Salunke','Panvel','Mumbai','Maharashtra','987654','9999999999','a@a.com'),
+('ABC','DEF','Andheri','Mumbai','Maharashtra','856319','9898989898','ab@a.com')

@@ -53,3 +53,10 @@ select * from AddressBook where City='Mumbai' order by FirstName
 -----UC-9 ----
 
 alter table AddressBook add type varchar(15)
+
+-----UC-10-----
+
+update AddressBook set type='Family' where FirstName in ('Nikita','Abcd')
+update AddressBook set type='Friend' where FirstName in ('Terissa')
+
+select type, count(type) from AddressBook group by type

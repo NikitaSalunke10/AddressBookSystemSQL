@@ -32,3 +32,11 @@ update AddressBook set FirstName='Abcd',LastName='Def',Address='Goregaon',City='
 
 delete from AddressBook where FirstName='Nikita'
 select * from AddressBook
+
+-----UC-6------
+
+insert into AddressBook values
+('Nikita','Salunke','Kothrud','Pune','Maharashtra','987654','9999999999','a@a.com')
+
+select * from AddressBook where city='Mumbai'
+select * from AddressBook where state='maharashtra'
